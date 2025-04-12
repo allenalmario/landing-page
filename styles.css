@@ -1,0 +1,147 @@
+* {
+    /* outline: 5px solid red; */
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.parent {
+    width: 970px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #1F2937;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    color: #E5E7EB;
+}
+
+main {
+    flex: 1; /* This makes main content take up all remaining space pushing footer down*/
+}
+
+.div-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color:#1F2937;;
+}
+
+.div-1 img {
+    padding: 25px;
+    width: 400px;
+    height: 150px;
+    background-color: grey;
+}
+
+.div-1-text {
+    margin-right: 15px;
+    color: #E5E7EB;
+}
+
+.div-1-text h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    weight: 900;
+}
+
+.div-1-text h1, p, button {
+    padding-bottom: 10px;
+}
+
+.div-1-text button {
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.div-2 h1 {
+    text-align: center;
+    margin: 15px;
+}
+
+.div-2 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: 5px #3882F6 solid;
+}
+
+.images {
+    display: flex;
+    margin: 15px;
+    text-align: center;
+}
+
+.div-3 {
+    text-align: center;
+    padding: 100px;
+    background-color: #E5E7EB;
+}
+
+.div-3 .quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.div-3 .signature {
+    text-align: right;
+}
+
+.div-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding: 50px;
+}
+
+.div-4 {
+    padding: 15px;
+    background-color: white;
+}
+
+.div-4 .action {
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    background-color: #3882F6;
+    padding: 15px;
+    color: white;
+    border-radius: 20px;
+}
+
+.div-4 button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: 1px white solid;
+    color: white;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
